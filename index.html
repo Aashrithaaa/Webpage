@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aashritha - Full Stack Web Developer</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Italic, sans-serif;
+            font-size: 17px;
+            margin: 0;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .container img {
+            vertical-align: middle;
+        }
+
+        .container .content {
+            position: absolute;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 100%;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #333;
+            display: flex;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+        }
+
+        .row::after,
+        .row2::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .column,
+        .column2 {
+            float: left;
+            width: 50%; /* Adjust the width as needed */
+            padding: 5px;
+        }
+
+        .text {
+            font-size: 20px;
+            padding-right: 20px;
+            padding-bottom: 100px;
+            color: green;
+        }
+
+        .column2 {
+            width: 33.33%; /* Adjust the width as needed */
+            border: 2px solid #000;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Horizontal Navigation Menu -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <img src="deakin.jpg" alt="Deakin" style="width:100%;">
+    <div class="content">
+        <h1>Hi, I am Aashritha</h1>
+    </div>
+</div>
+
+<div class="container">
+    <img src="me.jpg" alt="My photo" style="width:10%;">
+    <h3 style="color:green;">I am a Full Stack Web Developer based in Melbourne, Australia</h3>
+    <p style="color: green;">----------------------------</p>
+    <h3 style="color:green;">Here's what I have Done</h3>
+
+    <div class="row">
+        <div class="column">
+            <img src="db.jpg" alt="Database Image" style="width:100%;">
+        </div>
+        <p class="text">The goal of the database project is to provide students with a real-world experience in requirements definition, 
+          conceptual modeling, logical design, physical design, and operation of a relational database.</p>
+
+        <div class="column">
+            <img src="ml.jpg" alt="Machine learning" style="width:100%;">
+        </div>
+          
+    </div>
+
+    <p style="color: green;">----------------------------</p>
+    <h3 style="color: green;">My Photos</h3>
+
+    <div class="row2">
+        <div class="column2">
+            <img src="d1.jpg" alt="Deakin image1" style="width:100%;">
+        </div>
+        <div class="column2">
+            <img src="d2.jpg" alt="Deakin campus" style="width:100%;">
+        </div>
+        <div class="column2">
+            <img src="d3.jpg" alt="Deakin campus2" style="width:100%;">
+        </div>
+          <div class="column2">
+            <img src="d12.jpg" alt="Deakin image3" style="width:100%">
+          </div>
+          <div class="column2">
+            <img src="d2.jpg" alt="Deakin image" style="width:100%">
+          </div>
+          <div class="column2">
+            <img src="d3.jpg" alt="Deakin image" style="width:100%">
+          </div>
+          <div class="column2">
+            <img src="d11.jpg" alt="Deakin image" style="width:100%">
+          </div>  
+          <div class="column2">
+            <img src="d13.jpg" alt="Deakin image" style="width:100%">
+          </div> 
+          <div class="column2">
+            <img src="d1.jpg" alt="Deakin image" style="width:100%">
+          </div> 
+    </div>
+</div>
+
+</body>
+</html>
